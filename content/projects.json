@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Dispatch | AI Agent CLI Framework",
+    "description": "Built a lightweight Python CLI agent framework with provider abstraction, tool calling, multi-step planning, and persistent memory.",
+    "tech": ["Python", "LLMs", "AI Agents", "CLI", "Open source"],
+    "github": "https://github.com/santiagomora2/dispatch",
+    "link": "https://pypi.org/project/dispatch-agent/"
+  },
+  {
+    "title": "RAG Candidate Recommendation System",
+    "description": "Implemented semantic matching between candidates and job listings using Pinecone and Gemini embeddings.",
+    "tech": ["RAG", "Pinecone", "Gemini API", "Data pipelines"]
+  },
+  {
+    "title": "Multi-Model Chatbot Platform",
+    "description": "Architected chatbot platform integrating Claude, OpenAI, and Gemini for education and enterprise usage.",
+    "tech": ["Applied AI", "LLMs", "API Integration", "System Design"]
+  },
+  {
+    "title": "POI Validation Tool (Guadalahacks 2025 Winner)",
+    "description": "Won 1st place among 30+ teams by combining geometric checks with satellite-image CNN classification for map POI validation.",
+    "tech": ["Computer Vision", "Deep Learning", "Geospatial Analysis"],
+    "github": "https://github.com/JoseMartinezM/GuadalaHacks2025",
+    "link": "https://devpost.com/software/poi-misplacement-detection-in-multiply-digitised-routes"
+  },
+  {
+    "title": "Client Payment Prediction and Segmentation",
+    "description": "Developed ABC segmentation and predictive payment behavior models for proactive client engagement strategies.",
+    "tech": ["Random Forest", "Neural Networks", "Bayesian Models", "Data Science"]
+  }
+]

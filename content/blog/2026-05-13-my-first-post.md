@@ -1,0 +1,21 @@
+---
+title: My first post!
+date: 2026-05-13
+summary: A little bit of who I am and why I enjoy doing what I do.
+---
+
+I first started studying **Data Science and Math Engineering** back in 2022 and, as you may know, 
+that's when ChatGPT came out and everybody got surprised of the real **capabilities of LLMs**.
+
+Ever since then, there has been new field-changing and ground-breaking research **every like 1-2 months**, 
+and I couldn't help but be **fascinated** by all the **knowledge** and awesome things I read and saw online regarding 
+how these models work and how were they **engineered**.
+
+That's when I decided to shift away from the path of a traditional Data Scientist and interested myself more into 
+**deep learning, LLMs and applied AI**; and I still feel that same fascination that motivated me in the first place everytime
+people at Deepseek release a new paper. 
+
+I want to continue doing applied AI to solve problems and develop cool products for people, but also do **research** in different 
+and more efficient ways to **represent knowledge** and to make **LLMs faster and more capable** from the inside.
+
+Thank you for reading! :)

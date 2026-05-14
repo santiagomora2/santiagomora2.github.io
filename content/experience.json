@@ -1,0 +1,32 @@
+[
+  {
+    "job_title": "AI Engineer | Data Scientist",
+    "time-interval": "Feb 2024 - Present",
+    "location": "Guadalajara, Mexico",
+    "company": "JateNX",
+    "highlights": [
+      "Architected and deployed multi-model chatbots integrating Claude, OpenAI, and Gemini APIs.",
+      "Built a RAG pipeline with Pinecone + Gemini for candidate-job matching."
+    ]
+  },
+  {
+    "job_title": "Data Engineering Intern",
+    "time-interval": "Oct 2025 - Dec 2025",
+    "location": "Guadalajara, Mexico",
+    "company": "HERE Technologies",
+    "highlights": [
+      "Automated Jira extraction workflows on AWS Lambda and modeled outputs in DynamoDB.",
+      "Simplified downstream reporting by reducing multi-stage joins into single-table access patterns."
+    ]
+  },
+  {
+    "job_title": "Research Intern — Mitacs Globalink",
+    "time-interval": "Jul 2025 - Oct 2025",
+    "location": "Montreal, Canada",
+    "company": "Université du Québec à Montréal (UQAM)",
+    "highlights": [
+      "Compared deterministic, stochastic, and RL approaches for hospital inventory optimization.",
+      "Delivered recommendations balancing resilience, cost, and scalability under demand uncertainty."
+    ]
+  }
+]

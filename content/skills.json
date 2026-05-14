@@ -1,0 +1,48 @@
+{
+  "Languages": ["Python", "R", "C++"],
+  "ML & AI": [
+    "LLMs",
+    "RAG",
+    "AI Agents",
+    "Vector Databases",
+    "pytorch",
+    "tensorflow",
+    "scikit-learn",
+    "transformers",
+    "MCP",
+    "langgraph",
+    "mlflow",
+    "supervised learning",
+    "unsupervised learning",
+    "classification",
+    "regression"
+  ],
+  "DATA": [
+    "Data Architecture",
+    "ETL Pipelines",
+    "Feature Engineering",
+    "pandas",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "statsmodels",
+    "SQL"
+  ],
+  "Backend": [
+    "FastAPI",
+    "REST APIs",
+    "AWS Lambda",
+    "AWS DynamoDB",
+    "Docker",
+    "OpenAPI"
+  ],
+  "Developer Tools": [
+    "Git",
+    "GitHub",
+    "Linux",
+    "VS Code",
+    "Jupyter Notebook",
+    "LaTeX",
+    "RStudio"
+  ]
+}
