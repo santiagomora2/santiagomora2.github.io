@@ -120,14 +120,6 @@ export default async function Home() {
           >
             Thoughts
           </Link>
-          <a
-            href="/resume/SantiagoMora_resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="rounded-md border border-[var(--ui-border)] px-3 py-2 text-[var(--ui-text)] transition-colors hover:border-[var(--accent-soft-border)] hover:text-[var(--accent-strong)]"
-          >
-            Resume PDF
-          </a>
         </div>
       </SectionMotion>
     </div>

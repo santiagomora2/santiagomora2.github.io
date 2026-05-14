@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     default: "Santiago Mora | Terminal Portfolio",
     template: "%s | Santiago Mora",
   },
-  description: "Minimal terminal-style portfolio for Santiago Mora.",
+  description: "I like ML/AI.",
 };
 
 export default function RootLayout({
