@@ -1,4 +1,13 @@
 [
+    {
+    "title": "Multi-Knowledge Representation for coding LLMs",
+    "description": "Researching CLIP-style contrastive alignment of two views of the same function for code generation and understanding.",
+    "tech": ["LLMs", "Transformers", "Contrastive Learning", "Knowledge Representation"],
+    "institution": "Tecnológico de Monterrey (Guadalajara)",
+    "period": "Oct 2025 - Present",
+    "status": "In Progress",
+    "findings": "..."
+  },
   {
     "title": "Hospital Inventory Optimization Under Demand Uncertainty",
     "description": "Comparative study of deterministic, stochastic, and reinforcement learning strategies for healthcare inventory planning.",
@@ -7,14 +16,5 @@
     "period": "Jul 2025 - Oct 2025",
     "status": "Draft",
     "findings": "Initial analysis suggests up to ~2% cost reduction with policy tuning while preserving resilience under demand volatility."
-  },
-  {
-    "title": "Multi-Knowledge Representation for coding LLMs",
-    "description": "Researching CLIP-style contrastive alignment of two views of the same function for code generation and understanding.",
-    "tech": ["LLMs", "Transformers", "Contrastive Learning", "Knowledge Representation"],
-    "institution": "Tecnológico de Monterrey (Guadalajara)",
-    "period": "Oct 2025 - Present",
-    "status": "In Progress",
-    "findings": "..."
   }
 ]
