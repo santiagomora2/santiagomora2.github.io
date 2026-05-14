@@ -100,4 +100,5 @@ body {
 
 .reactive-dot {
   background: var(--accent);
+  box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 72%, transparent);
 }

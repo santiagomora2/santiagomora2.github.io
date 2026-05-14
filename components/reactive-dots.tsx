@@ -11,7 +11,7 @@ type Dot = {
   baseOpacity: number;
 };
 
-const totalDots = 90;
+const totalDots = 240;
 
 function seededValue(seed: number) {
   const x = Math.sin(seed * 12.9898) * 43758.5453;
@@ -31,8 +31,8 @@ export function ReactiveDots() {
           id: index,
           x,
           y,
-          size: 2 + Math.floor(seededValue(index + 201) * 2),
-          baseOpacity: 0.22 + seededValue(index + 301) * 0.14,
+          size: 2 + Math.floor(seededValue(index + 201) * 3),
+          baseOpacity: 0.3 + seededValue(index + 301) * 0.22,
         };
       }),
     [],
@@ -64,7 +64,8 @@ export function ReactiveDots() {
         const dx = dot.x - cursor.x;
         const dy = dot.y - cursor.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
-        const influence = Math.max(0, 1 - distance / 22);
+        const influence = Math.max(0, 1 - distance / 26);
+        const activeOpacity = Math.min(0.98, dot.baseOpacity + influence * 0.68);
 
         return (
           <motion.span
@@ -77,7 +78,7 @@ export function ReactiveDots() {
               height: dot.size,
             }}
             animate={{
-              opacity: dot.baseOpacity + influence * 0.62,
+              opacity: activeOpacity,
               scale: 1 + influence * 0.75,
             }}
             transition={{ duration: 0.24, ease: "easeOut" }}
