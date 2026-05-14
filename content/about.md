@@ -13,8 +13,6 @@ highlights:
   - 1st place winner at Guadalahacks 2025 for POI validation with deep learning.
 ---
 
-# About
-
 I've shipped practical AI systems for education, hiring, and enterprise. 
 
 Now I'm researching how to make LLMs better: optimizing architectures, designing efficient knowledge representations, and improving cost-performance.
