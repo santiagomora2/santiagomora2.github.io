@@ -1,15 +1,5 @@
 [
   {
-    "job_title": "AI Engineer | Data Scientist",
-    "time-interval": "Feb 2024 - Present",
-    "location": "Guadalajara, Mexico",
-    "company": "JateNX",
-    "highlights": [
-      "Architected and deployed multi-model chatbots integrating Claude, OpenAI, and Gemini APIs.",
-      "Built a RAG pipeline with Pinecone + Gemini for candidate-job matching."
-    ]
-  },
-  {
     "job_title": "Data Engineering Intern",
     "time-interval": "Oct 2025 - Dec 2025",
     "location": "Guadalajara, Mexico",
@@ -27,6 +17,16 @@
     "highlights": [
       "Compared deterministic, stochastic, and RL approaches for hospital inventory optimization.",
       "Delivered recommendations balancing resilience, cost, and scalability under demand uncertainty."
+    ]
+  },
+  {
+    "job_title": "AI Engineer | Data Scientist",
+    "time-interval": "Feb 2024 - Present",
+    "location": "Guadalajara, Mexico",
+    "company": "JateNX",
+    "highlights": [
+      "Architected and deployed multi-model chatbots integrating Claude, OpenAI, and Gemini APIs.",
+      "Built a RAG pipeline with Pinecone + Gemini for candidate-job matching."
     ]
   }
 ]
