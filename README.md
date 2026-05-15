@@ -1,6 +1,6 @@
 # Wii Portfolio - Santiago Mora
 
-A personal portfolio built in the style of the **Nintendo Wii Main Menu**. Navigate through channels to explore my work, skills, research, and writing.
+A personal portfolio built in the style of the **Nintendo Wii Main Menu**. Navigate through channels to explore my work, skills, research, and blog.
 
 ---
 
@@ -22,7 +22,7 @@ The design, UI, and base architecture of this portfolio were built upon the amaz
 | Research | Academic research work |
 | Blog | Writing and posts |
 | LinkedIn / GitHub | External profiles |
-| Featured Project | [Dispatch - AI Agent CLI](https://github.com/santiagomora2/dispatch) |
+| Featured Project | [Dispatch: AI Agent CLI](https://github.com/santiagomora2/dispatch) |
 
 ---
 
