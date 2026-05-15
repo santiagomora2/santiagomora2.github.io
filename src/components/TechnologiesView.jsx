@@ -5,7 +5,6 @@ import skills from "../../content/skills.json";
 
 const CATEGORIES = Object.entries(skills);
 const TOTAL_STEPS = CATEGORIES.length * 2;
-const DISPLAY_HOLD = 2000;
 const STEP_INTERVAL = 350;
 
 const TechnologiesView = () => {
@@ -13,11 +12,12 @@ const TechnologiesView = () => {
     const isShortScreen = useMediaQuery({ maxHeight: 750 });
 
     useEffect(() => {
-        const isHolding = currentStep === TOTAL_STEPS;
-        const delay = currentStep === 0 ? DISPLAY_HOLD : isHolding ? DISPLAY_HOLD : STEP_INTERVAL;
+        if (currentStep >= TOTAL_STEPS) return;
+
+        const delay = STEP_INTERVAL;
 
         const id = setTimeout(() => {
-            setCurrentStep((prev) => (prev >= TOTAL_STEPS ? 0 : prev + 1));
+            setCurrentStep((prev) => prev + 1);
         }, delay);
 
         return () => clearTimeout(id);

@@ -71,7 +71,7 @@ To add a blog post, append an object to `content/blog/posts.json`:
 ## Local setup
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/santiagomora2/santiagomora2.github.io wii-portfolio
 cd wii-portfolio
 npm install
 npm run dev
