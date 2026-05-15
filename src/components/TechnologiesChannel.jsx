@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import pythonIcon from "../assets/svgs/python.svg";
+import pytorchIcon from "../assets/svgs/pytorch.svg";
+import fastapiIcon from "../assets/svgs/fastapi.svg";
+import langgraphIcon from "../assets/svgs/langgraph.svg";
+import mlflowIcon from "../assets/svgs/mlflow.svg";
 import dockerIcon from "../assets/svgs/docker.svg";
+
 
 const TechnologiesChannel = () => {
     const [showTooltip, setShowTooltip] = useState(false);
@@ -18,7 +23,7 @@ const TechnologiesChannel = () => {
         setShowTooltip(false);
     };
 
-    const icons = [pythonIcon, dockerIcon];
+    const icons = [pythonIcon, pytorchIcon, fastapiIcon, langgraphIcon, mlflowIcon, dockerIcon];
     const [currentIconIndex, setCurrentIconIndex] = useState(0);
 
     useEffect(() => {
