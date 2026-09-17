@@ -53,7 +53,7 @@ const TechnologiesChannel = () => {
             {/* Tooltip */}
             {showTooltip && (
                 <div className="font-rodin absolute z-10 left-1/2 transform -translate-x-1/2 mt-2 px-24 py-2 bg-white text-black rounded-full text-xl border-2 border-gray-300 shadow-xl whitespace-nowrap">
-                    <p>Technologies I Know</p>
+                    <p>Tech Stack</p>
                 </div>
             )}
         </div>
